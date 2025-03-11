@@ -1,7 +1,72 @@
-body{
-    background: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    
+/* Fondo general */
+body {
+    background: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* Header */
+header {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+/* Cada post */
+.post {
+    background: white;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Parte superior del post */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-header h2 {
+    font-size: 16px;
+}
+
+.post-header span {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Imagen del post */
+.post-img img {
+    margin-left: 30%;
+    width: auto; /* Mantiene su tamaño natural o el que tú definas */
+    max-width: 100%; /* No exceder el ancho del contenedor */
+    height: auto; /* Mantener proporción */
+}
+
+/* Pie del post */
+.post-footer {
+    padding: 10px;
+}
+
+.post-footer p {
+    font-size: 14px;
+    line-height: 1.5;
 }
