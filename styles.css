@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.container > *:not(header) {
     width: 500px;
     margin: 20px auto;
 }
@@ -38,6 +38,7 @@ header h1 {
 .post-header {
     display: flex;
     justify-content: space-between;
+
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
