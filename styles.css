@@ -10,13 +10,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Contenedor principal */
 .container {
     width: 500px;
     margin: 20px auto;
 }
 
-/* Header */
 header {
     background: white;
     padding: 10px;
@@ -29,14 +27,14 @@ header h1 {
     font-weight: bold;
 }
 
-/* Cada post */
+
 .post {
     background: white;
     margin-bottom: 20px;
     border: 1px solid #ccc;
 }
 
-/* Parte superior del post */
+
 .post-header {
     display: flex;
     justify-content: space-between;
@@ -53,15 +51,15 @@ header h1 {
     font-size: 14px;
 }
 
-/* Imagen del post */
+
 .post-img img {
     margin-left: 30%;
-    width: auto; /* Mantiene su tamaño natural o el que tú definas */
-    max-width: 100%; /* No exceder el ancho del contenedor */
-    height: auto; /* Mantener proporción */
+    width: auto; 
+    max-width: 100%; 
+    height: auto; 
 }
 
-/* Pie del post */
+
 .post-footer {
     padding: 10px;
 }
